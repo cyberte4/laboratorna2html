@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url(./MYRIADPRO-REGULAR.OTF);
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  width: 1280px;
+  padding-inline: 100px;
+  font-family: 'Myriad Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__logo {
+  font-size: 80px;
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+
+.header__link {
+  color: black;
+}
+
+.header__link--blue {
+  color: #4bcaff;
+}
+
+.header__nav {
+  background-color: #35444f;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative
+}
+
+.header__nav--title {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 76px;
+}
+
+.header__nav--title:hover {
+  background-color: #222f3a;
+}
+
+.content {
+  padding-top: 51px;
+}
+
+.content__left {
+  font-size: 27px;
+  border: 1px solid #495863;
+  display: inline-block;
+  width: 340px;
+  height: 410px;
+  float: left;
+}
+
+.content__left--list {
+  padding-left: 0;
+  width: 100%;
+}
+
+.content__left--title {
+  color: #495863;
+  line-height: 76px;
+  text-align: left;
+  padding-left: 42px;
+  list-style: none;
+  display: block;
+}
+
+.content__left--title:hover {
+  cursor: pointer;
+  background: #dbdbdb;
+  padding-left: 68px;
+  font-weight: 600;
+}
+
+.content__right {
+  width: 880px;
+  height: 810px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.content__right-img {
+  height: 530px;
+  border: 1px solid #35444f;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__right--photo:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.content__right--text {
+  padding-left: 30px;
+}
+
+.content__right--words {
+  text-align: justify;
+  font-size: 18px;
+  padding-bottom: 30px;
+  line-height: 24px;
+  color: #2c2c2c;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Вирівнювання дочірніх елементів по центру вертикально */
+  height: 60px;
+  background: #b4b7ba;
+  margin-bottom: 20px;
+  margin-top: 38px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__content-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  gap: 20px;
+}
+
+.footer__content-list--item {
+  padding: 0 10px;
+  font-size: 28px;
+  gap: 20px;
+}
+
+.footer__content-list--item:hover{
+  text-decoration: underline;
+  color: #3181a6;
+  cursor: pointer;
+}
+
+.footer__content--copyright {
+  margin-left: 70px;
+}
+
+.footer__content--copyright--text {
+  font-size: 24px;
+}
